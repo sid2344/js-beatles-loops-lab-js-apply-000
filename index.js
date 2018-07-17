@@ -32,7 +32,7 @@ function theBeatlesPlay(musicians, instruments) {
 
  johnLennonFacts(facts); 
 
-ay with the strings "I love the Beatles!".
+
 
  function iLoveTheBeatles(number) { 
   
