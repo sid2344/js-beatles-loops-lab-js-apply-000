@@ -1,3 +1,16 @@
+var musicians = ["John Lennon", "Paul McCartney", "George Harrison", "Ringo Starr"];
+var instruments = ["Guitar", "Bass Guitar", "Lead Guitar", "Drums"];
+
+
+theBeatlesPlay(musicians, instruments); 
+
+function theBeatlesPlay(musicians, instruments) {
+  var newArr = []; 
+  for(var i =0; i < musicians.length; i++) {
+    newArr.push(musicians[i] + " plays " + instruments[i]);
+  }
+  return newArr;
+}
  // + Create a function `johnLennonFacts`. This function will accept one argument, an array of facts about John Lennon (note that it might not be exactly the following facts):
 
 
