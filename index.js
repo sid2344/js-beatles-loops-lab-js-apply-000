@@ -43,9 +43,7 @@ function theBeatlesPlay(musicians, instruments) {
    } while (number < 15); 
 
   return newArray; 
- } 
-
-/*global describe, it */
+ }
 
 
  iLoveTheBeatles(8);
